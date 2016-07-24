@@ -1,7 +1,7 @@
 # Blackhole Raytacer
 Written in C++ and OpenCL. Computing using GPU OpenCL technology.
 
-![Example](https://raw.githubusercontent.com/maratsarbasov/blackhole-raytracer/master/example.png)
+![Example](https://raw.githubusercontent.com/maratsarbasov/Blackhole-Raytracer/master/example.png)
 
 ## Usage
 ```
