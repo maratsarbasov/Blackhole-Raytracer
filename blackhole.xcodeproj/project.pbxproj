@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6316E63E1C0C997200AC747F /* libfreeimageplus.3.16.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6316E63D1C0C997200AC747F /* libfreeimageplus.3.16.0.dylib */; };
+		632F888C1BF961AF00B8C5FA /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632F888B1BF961AF00B8C5FA /* OpenCL.framework */; };
+		632F88971BFA487000B8C5FA /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 632F88901BFA487000B8C5FA /* Main.cpp */; settings = {ASSET_TAGS = (); }; };
+		632F88981BFA487000B8C5FA /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 632F88921BFA487000B8C5FA /* Scene.cpp */; settings = {ASSET_TAGS = (); }; };
+		632F88991BFA487000B8C5FA /* Tracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 632F88941BFA487000B8C5FA /* Tracer.cpp */; settings = {ASSET_TAGS = (); }; };
+		632F889E1BFA5EB700B8C5FA /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 632F889D1BFA5E9B00B8C5FA /* data */; };
+		632F88A01BFA5F5B00B8C5FA /* config.cfg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 632F889F1BFA5F0B00B8C5FA /* config.cfg */; };
+		633E39A21C039B4100CA4FA1 /* kernel.cl in Sources */ = {isa = PBXBuildFile; fileRef = 633E39A11C039B4100CA4FA1 /* kernel.cl */; settings = {ASSET_TAGS = (); }; };
+		6351C0F41C03B930003627E1 /* AccreationDisk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6351C0F21C03B930003627E1 /* AccreationDisk.cpp */; settings = {ASSET_TAGS = (); }; };
+		6364B8881C0B8499004405CF /* kernel.cl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 633E39A11C039B4100CA4FA1 /* kernel.cl */; };
+		63EEC68A1C023F5F004AD681 /* Blackhole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63EEC6881C023F5F004AD681 /* Blackhole.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		638164BC1BF4EF78001906A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				6364B8881C0B8499004405CF /* kernel.cl in CopyFiles */,
+				632F88A01BFA5F5B00B8C5FA /* config.cfg in CopyFiles */,
+				632F889E1BFA5EB700B8C5FA /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6316E63D1C0C997200AC747F /* libfreeimageplus.3.16.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreeimageplus.3.16.0.dylib; path = freeimage/3.16.0/lib/libfreeimageplus.3.16.0.dylib; sourceTree = "<group>"; };
+		632F888B1BF961AF00B8C5FA /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		632F888F1BFA487000B8C5FA /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		632F88901BFA487000B8C5FA /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		632F88911BFA487000B8C5FA /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		632F88921BFA487000B8C5FA /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		632F88931BFA487000B8C5FA /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		632F88941BFA487000B8C5FA /* Tracer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracer.cpp; sourceTree = "<group>"; };
+		632F88951BFA487000B8C5FA /* Tracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracer.h; sourceTree = "<group>"; };
+		632F88961BFA487000B8C5FA /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		632F889A1BFA48F800B8C5FA /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		632F889D1BFA5E9B00B8C5FA /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		632F889F1BFA5F0B00B8C5FA /* config.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.cfg; sourceTree = "<group>"; };
+		633E39A11C039B4100CA4FA1 /* kernel.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = kernel.cl; sourceTree = "<group>"; };
+		6351C0F11C039F1F003627E1 /* cl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cl.hpp; sourceTree = "<group>"; };
+		6351C0F21C03B930003627E1 /* AccreationDisk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccreationDisk.cpp; sourceTree = "<group>"; };
+		6351C0F31C03B930003627E1 /* AccreationDisk.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AccreationDisk.hpp; sourceTree = "<group>"; };
+		638164BE1BF4EF78001906A3 /* blackhole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = blackhole; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EEC6881C023F5F004AD681 /* Blackhole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Blackhole.cpp; sourceTree = "<group>"; };
+		63EEC6891C023F5F004AD681 /* Blackhole.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Blackhole.hpp; sourceTree = "<group>"; };
+		63EEC68B1C024811004AD681 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638164BB1BF4EF78001906A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6316E63E1C0C997200AC747F /* libfreeimageplus.3.16.0.dylib in Frameworks */,
+				632F888C1BF961AF00B8C5FA /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		638164B51BF4EF77001906A3 = {
+			isa = PBXGroup;
+			children = (
+				6316E63D1C0C997200AC747F /* libfreeimageplus.3.16.0.dylib */,
+				6351C0F11C039F1F003627E1 /* cl.hpp */,
+				632F888B1BF961AF00B8C5FA /* OpenCL.framework */,
+				638164C01BF4EF78001906A3 /* blackhole */,
+				638164BF1BF4EF78001906A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		638164BF1BF4EF78001906A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638164BE1BF4EF78001906A3 /* blackhole */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638164C01BF4EF78001906A3 /* blackhole */ = {
+			isa = PBXGroup;
+			children = (
+				632F889D1BFA5E9B00B8C5FA /* data */,
+				632F889A1BFA48F800B8C5FA /* glm */,
+				632F888F1BFA487000B8C5FA /* Camera.h */,
+				632F88901BFA487000B8C5FA /* Main.cpp */,
+				632F889F1BFA5F0B00B8C5FA /* config.cfg */,
+				632F88911BFA487000B8C5FA /* Mesh.h */,
+				632F88921BFA487000B8C5FA /* Scene.cpp */,
+				632F88931BFA487000B8C5FA /* Scene.h */,
+				63EEC6881C023F5F004AD681 /* Blackhole.cpp */,
+				63EEC6891C023F5F004AD681 /* Blackhole.hpp */,
+				6351C0F21C03B930003627E1 /* AccreationDisk.cpp */,
+				6351C0F31C03B930003627E1 /* AccreationDisk.hpp */,
+				632F88941BFA487000B8C5FA /* Tracer.cpp */,
+				632F88951BFA487000B8C5FA /* Tracer.h */,
+				632F88961BFA487000B8C5FA /* Types.h */,
+				63EEC68B1C024811004AD681 /* Constants.h */,
+				633E39A11C039B4100CA4FA1 /* kernel.cl */,
+			);
+			path = blackhole;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638164BD1BF4EF78001906A3 /* blackhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638164C51BF4EF78001906A3 /* Build configuration list for PBXNativeTarget "blackhole" */;
+			buildPhases = (
+				638164BA1BF4EF78001906A3 /* Sources */,
+				638164BB1BF4EF78001906A3 /* Frameworks */,
+				638164BC1BF4EF78001906A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blackhole;
+			productName = blackhole;
+			productReference = 638164BE1BF4EF78001906A3 /* blackhole */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638164B61BF4EF77001906A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sarbasov inc.";
+				TargetAttributes = {
+					638164BD1BF4EF78001906A3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 638164B91BF4EF77001906A3 /* Build configuration list for PBXProject "blackhole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 638164B51BF4EF77001906A3;
+			productRefGroup = 638164BF1BF4EF78001906A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638164BD1BF4EF78001906A3 /* blackhole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638164BA1BF4EF78001906A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632F88991BFA487000B8C5FA /* Tracer.cpp in Sources */,
+				6351C0F41C03B930003627E1 /* AccreationDisk.cpp in Sources */,
+				632F88981BFA487000B8C5FA /* Scene.cpp in Sources */,
+				632F88971BFA487000B8C5FA /* Main.cpp in Sources */,
+				633E39A21C039B4100CA4FA1 /* kernel.cl in Sources */,
+				63EEC68A1C023F5F004AD681 /* Blackhole.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		638164C31BF4EF78001906A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		638164C41BF4EF78001906A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		638164C61BF4EF78001906A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/blackhole/External/lib",
+					"/usr/local/Cellar/freeimage/3.16.0/**",
+					"$(PROJECT_DIR)/freeimage/3.16.0/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		638164C71BF4EF78001906A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/blackhole/External/lib",
+					"/usr/local/Cellar/freeimage/3.16.0/**",
+					"$(PROJECT_DIR)/freeimage/3.16.0/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		638164B91BF4EF77001906A3 /* Build configuration list for PBXProject "blackhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638164C31BF4EF78001906A3 /* Debug */,
+				638164C41BF4EF78001906A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638164C51BF4EF78001906A3 /* Build configuration list for PBXNativeTarget "blackhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638164C61BF4EF78001906A3 /* Debug */,
+				638164C71BF4EF78001906A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638164B61BF4EF77001906A3 /* Project object */;
+}
